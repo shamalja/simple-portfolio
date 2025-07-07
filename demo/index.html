@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #4f46e5;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .card {
+      background: #fff;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h2 {
+      color: #4f46e5;
+      margin-bottom: 0.5rem;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      background-color: #4f46e5;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      padding: 1rem;
+      background: #eee;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jane Doe</h1>
+    <p>Web Developer & Designer</p>
+  </header>
+  <main>
+    <div class="card">
+      <h2>About Me</h2>
+      <p>Hello! I'm Jane, a web developer passionate about creating modern, responsive websites and web apps. I love working with HTML, CSS, and JavaScript.</p>
+    </div>
+    <div class="card">
+      <h2>Projects</h2>
+      <ul>
+        <li>Responsive Portfolio Site</li>
+        <li>Todo App (JS)</li>
+        <li>Blog Template with Flexbox</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Email me at <a href="mailto:jane@example.com">jane@example.com</a></p>
+      <button class="btn" onclick="showAlert()">Say Hello</button>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 Jane Doe. All rights reserved.
+  </footer>
+
+  <script>
+    function showAlert() {
+      alert("Thanks for visiting my portfolio!");
+    }
+  </script>
+</body>
+</html>
