@@ -22,9 +22,11 @@ You can preview the site by opening `index.html` in your browser.
 
 ## 📁 Folder Structure
 
-/simple-portfolio
+simple-portfolio/
 
-└── index.html
+└── demo/
+
+    └── index.html
 
 
 ## 📌 How to Use
